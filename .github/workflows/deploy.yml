@@ -23,4 +23,4 @@ jobs:
       - run : git config user.email github-actions@github.com
       - run : git add build -f
       - run : git commit -m "[CI] GH Action build & deploy"
-      - run : git push origin gh-pages
+      - run : git push origin HEAD:gh-pages
