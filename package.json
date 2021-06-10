@@ -2,6 +2,7 @@
   "name": "react-class-vs-functional-components",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ktsuench.github.io/react-class-vs-functional-components",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.12.0",
