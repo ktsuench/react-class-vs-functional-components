@@ -2,6 +2,8 @@
 
 This is a simplified comparison between a React Class and Functional components
 
+Can visit sample [https://ktsuench.github.io/react-class-vs-functional-components](https://ktsuench.github.io/react-class-vs-functional-components)
+
 ## Set up
 
 - have Node.js v14.x
