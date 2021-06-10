@@ -23,7 +23,7 @@ jobs:
       - run: git checkout --progress --force -B gh-pages refs/remotes/origin/gh-pages
       - run: npm ci
       - run: npm run build --if-present
-      - run: mv build docs
+      - run: rm -rf docs && mv build docs
       - run: git add docs -f
       - run: git commit -m "[CI] GH Action build & deploy"
       - run: git push
