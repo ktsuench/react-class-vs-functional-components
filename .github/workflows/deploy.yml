@@ -1,5 +1,4 @@
 name: 'Build react app for GH Pages'
-description: 'Build and commit to gh-pages'
 on:
   push:
     branches: [ main ]
